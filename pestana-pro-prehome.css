@@ -1,0 +1,178 @@
+/* CLIENTE: Pestana Pro | REF: Pestana
+   COLOR: #0085C8 · #005a8e | FONT: Plus Jakarta Sans
+   Generado con Mirai Prehome Builder · tipografía SOLO en títulos */
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
+
+:root{
+  --brand:#0085C8;
+  --brand-2:#005a8e;
+  --bg:#ffffff;
+  --text:#5a6278;
+  --title-font:"Plus Jakarta Sans",Arial,sans-serif;
+  --radius:0;
+}
+
+/* ===== GLOBAL ===== */
+html,body{background:var(--bg) !important;}
+#prehomeSections,.prehome-sections__container,.prehome-sections__container--main-paddings{
+  margin-top:0 !important;padding-top:0 !important;background:var(--bg) !important;}
+
+/* ===== HERO / LOGIN ===== */
+#loginSection.login{
+  width:100vw !important;max-width:none !important;
+  height:900px !important;min-height:900px !important;
+  margin-left:calc(50% - 50vw) !important;margin-right:calc(50% - 50vw) !important;
+  margin-top:0 !important;padding:0 !important;position:relative !important;
+  overflow:hidden !important;border-radius:0 !important;}
+#loginSection > img.login__background.desktop-image,#loginSection .login__background{
+  position:absolute !important;inset:0 !important;width:100% !important;
+  height:900px !important;min-height:900px !important;
+  object-fit:cover !important;object-position:center 40% !important;border-radius:0 !important;}
+#loginSection.login::before{content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(90deg,rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.28) 50%,rgba(0,0,0,0.10) 100%);}
+#loginSection .login__full{position:relative !important;z-index:2 !important;
+  height:900px !important;min-height:900px !important;
+  width:100% !important;max-width:1180px !important;margin:0 auto !important;
+  display:flex !important;align-items:center !important;justify-content:space-between !important;
+  padding:0 60px !important;box-sizing:border-box !important;}
+#loginSection .login__info{float:none !important;width:55% !important;max-width:720px !important;padding:0 !important;}
+#loginSection .login__main{float:none !important;width:360px !important;max-width:360px !important;margin:0 !important;padding:0 !important;}
+#loginSection .login__box{margin:0 !important;border-radius:var(--radius) !important;}
+#loginSection .login__scroll{z-index:3 !important;}
+#loginSection .login__info h1,#loginSection .login__info h1 *,
+#loginSection .login__text h1,#loginSection .login__text h1 *{
+  font-family:var(--title-font) !important;color:#ffffff !important;
+  font-size:75px !important;line-height:.86 !important;font-weight:700 !important;
+  letter-spacing:-.03em !important;text-shadow:0 3px 18px rgba(0,0,0,.35);}
+#loginSection .login__info p,#loginSection .login__text p{
+  color:#ffffff !important;font-size:24px !important;line-height:1.3 !important;
+  text-shadow:0 2px 10px rgba(0,0,0,.4);}
+
+/* ===== TÍTULOS DE SECCIÓN (solo títulos) ===== */
+.register__title,
+.company__title,
+.company__title b,
+.faqs__title,
+.faqs__title b,
+.start-business__title,
+.start-business__title b,
+.destinations__title,
+.destinations__title b{
+  font-family:var(--title-font) !important;color:var(--brand) !important;
+  font-size:48px !important;line-height:1.1 !important;
+  font-weight:700 !important;letter-spacing:-.02em !important;}
+
+/* ===== REGISTER ===== */
+.register{background:transparent !important;padding-top:70px !important;padding-bottom:70px !important;}
+.register h2,.register__title,.register__container h2{
+  font-family:var(--title-font) !important;text-align:center;
+  color:#ffffff !important;font-weight:700 !important;
+  text-shadow:0 3px 16px rgba(0,0,0,.4) !important;}
+.register__container p,.register p{
+  max-width:720px;margin:20px auto 25px;text-align:center;
+  font-size:20px;line-height:1.5;
+  color:#ffffff !important;text-shadow:0 2px 12px rgba(0,0,0,.45) !important;}
+
+/* ===== BOTONES ===== */
+.btn-primary,.btn-login,.upper-menu__login-button,button.btn-primary{
+  background-color:var(--brand) !important;border-color:var(--brand) !important;
+  color:#fff !important;border-radius:var(--radius) !important;
+  font-weight:700 !important;letter-spacing:.08em !important;text-transform:uppercase !important;}
+.btn-primary:hover,.btn-login:hover,.upper-menu__login-button:hover,button.btn-primary:hover{
+  background-color:var(--brand-2) !important;border-color:var(--brand-2) !important;color:#fff !important;}
+
+/* ===== START BUSINESS ===== */
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection{background-color:#0085C8 !important;}
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__title,#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__title b,
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__slide-title{color:#fff !important;}
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__slide-description{color:rgba(255,255,255,.9) !important;}
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__slide img,#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__slide-image img,
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .start-business__icon img{filter:brightness(0) invert(1) !important;}
+#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection .glyphicon,#_ctl1__ctl1_pageBody_startBusiness-startBusinessSection i{color:#fff !important;}
+
+/* ===== FAQS ===== */
+#_ctl1__ctl1_pageBody_faqs-FAQsSection{padding-top:40px !important;margin-top:0 !important;}
+#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__title,#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__title b{color:var(--brand) !important;}
+#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__question-title,#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__answer{color:var(--text) !important;}
+#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__answer{line-height:1.6;}
+#_ctl1__ctl1_pageBody_faqs-FAQsSection .faqs__number{background-color:var(--brand) !important;color:#fff !important;
+  border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;}
+#_ctl1__ctl1_pageBody_faqs-FAQsSection .more-options__button,#_ctl1__ctl1_pageBody_faqs-FAQsSection .button-text,#_ctl1__ctl1_pageBody_faqs-FAQsSection .glyphicon{color:var(--brand) !important;}
+
+/* ===== COMPANY ===== */
+#_ctl1__ctl1_pageBody_company-companySection{background:var(--bg) !important;}
+
+/* ===== SECCIONES OCULTAS ===== */
+#_ctl1__ctl1_pageBody_products-productsSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="products-productsSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="products-productsSection"]){display:none !important;}
+#_ctl1__ctl1_pageBody_destinations-destinationsSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="destinations-destinationsSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="destinations-destinationsSection"]){display:none !important;}
+#_ctl1__ctl1_pageBody_clients-clientsSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="clients-clientsSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="clients-clientsSection"]){display:none !important;}
+#_ctl1__ctl1_pageBody_referrals-referralsSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="referrals-referralsSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="referrals-referralsSection"]){display:none !important;}
+#_ctl1__ctl1_pageBody_ourTeam-ourTeamSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="ourTeam-ourTeamSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="ourTeam-ourTeamSection"]){display:none !important;}
+#_ctl1__ctl1_pageBody_downloadTheApp-downloadTheAppSection{display:none !important;}
+.anchor__list .anchor__element:has(a[href*="downloadTheApp-downloadTheAppSection"]),
+#main-menu-products-simple .anchor__element:has(a[href*="downloadTheApp-downloadTheAppSection"]){display:none !important;}
+
+/* ===== FOOTER (claro) ===== */
+#mainFooter{background:#ffffff !important;}
+#mainFooter .footer__text,#mainFooter a,#mainFooter span,#mainFooter p,#mainFooter li{color:var(--text) !important;}
+#mainFooter img{filter:none !important;max-width:140px !important;max-height:42px !important;width:auto !important;height:auto !important;object-fit:contain !important;}
+#mainFooter .prehome-footer__logo img,#mainFooter #simple-logo img,#mainFooter .logo img{
+  max-width:140px !important;max-height:42px !important;width:auto !important;height:auto !important;object-fit:contain !important;filter:none !important;}
+#mainFooter a[href*="ejuniper"]{opacity:0 !important;visibility:hidden !important;pointer-events:none !important;}
+
+/* ===== VISIBILIDAD HEADER / FOOTER ===== */
+
+/* ===== ESQUINAS RECTAS ===== */
+.slick-slide,.slick-slide *,.slick-list,.slick-track,
+input,select,textarea,button,.btn{border-radius:0 !important;}
+
+/* ===== TABLET (max 1024px) ===== */
+@media(max-width:1024px){
+  #loginSection.login,#loginSection > img.login__background.desktop-image,
+  #loginSection .login__background,#loginSection .login__full{
+    height:657px !important;min-height:657px !important;}
+  #loginSection .login__full{padding:0 35px !important;}
+  #loginSection .login__info h1,#loginSection .login__info h1 *{font-size:62px !important;}
+  .register__title,
+.company__title,
+.company__title b,
+.faqs__title,
+.faqs__title b,
+.start-business__title,
+.start-business__title b,
+.destinations__title,
+.destinations__title b{font-size:40px !important;}
+}
+
+/* ===== MOBILE (max 767px) ===== */
+@media(max-width:767px){
+  #loginSection.login{width:100% !important;height:auto !important;
+    min-height:0 !important;margin-left:0 !important;margin-right:0 !important;}
+  #loginSection > img.login__background.desktop-image,
+  #loginSection .login__background{height:100% !important;min-height:100% !important;}
+  #loginSection .login__full{height:auto !important;min-height:0 !important;
+    display:block !important;padding:90px 20px 60px !important;}
+  #loginSection .login__info,#loginSection .login__main{width:100% !important;max-width:100% !important;}
+  #loginSection .login__info h1,#loginSection .login__info h1 *{font-size:44px !important;}
+  .register__title,
+.company__title,
+.company__title b,
+.faqs__title,
+.faqs__title b,
+.start-business__title,
+.start-business__title b,
+.destinations__title,
+.destinations__title b{font-size:34px !important;}
+  .register h2,.register__title{font-size:32px !important;}
+}
